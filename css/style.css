@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color:#262030;
+	border-radius: 100px;
+	color: #d8c0cb;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+	background-color: #493146;
+	text-align: center;
+	padding: 5px;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+h2{
+	
+}
+
+a img{
+	width: 100px;
+	margin-left: 20px;
+	filter: opacity(65%) invert(70%);
+}
+
+main{
+	padding: 40px 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 22px;
+	background-color: #493146;
+    margin: 20px 33px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.lineinput {
+	margin: 15px;
+	padding: 10px;
+	flex-direction: column;
+}
+
+.input-div input {
+    margin: 50px;
+    color: #493146;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 900;
+    outline: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card .lineinput input {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+	width: 250px;
+	height: 50px;
+	border-radius: 7px;
+	font-size: 20px;
+	text-align:center;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	font-size:26px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	border: 10px solid #493146;
+}
+
+table th{
+	background-color: #493146;
+}
+
+.icon-image{
+	max-width:50px;
+	cursor: pointer;
+	filter:invert(60%) opacity(60%);
+	padding: 10px 1px;
+	margin: 7px 1px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
